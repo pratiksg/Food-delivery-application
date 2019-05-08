@@ -1,13 +1,10 @@
 
 export class Address{
-    addressLine1:string;
-    state:string;
-    city:string;
-    postalCode:number;
+    address:string;
+    
 }
-export class Customer{
+export class Deliveryboy{
     name:string;
-    gender:string;
     password:string;
     contact:number;
     email:string;

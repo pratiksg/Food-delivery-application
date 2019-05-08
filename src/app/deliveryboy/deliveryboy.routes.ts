@@ -3,8 +3,9 @@ import { DeliveryboyRegistrationComponent } from './deliveryboy-registration.com
 import { DeliveryboyLoginComponent } from './deliveryboy-login.component';
 import { DeliveryboyOrderComponent } from './deliveryboy-order.component';
 
+
 export const deliveryboyRoutes: Routes =[
     {path: "signup", component: DeliveryboyRegistrationComponent},
     {path: "login",component: DeliveryboyLoginComponent},
     {path: "order",component:DeliveryboyOrderComponent}
-]
+];
